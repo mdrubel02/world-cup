@@ -111,7 +111,7 @@ hr {
     font-weight: 500;
     /* letter-spacing: 1px; */
     color: #f35626;
-    background-image: -webkit-linear-gradient(92deg, #E02C6D, #910a3b);
+    background-image: -webkit-linear-gradient(92deg, #E02C6D, #feab3a);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-animation: hue 10s infinite linear;
@@ -177,7 +177,6 @@ hr {
 
 .thumble img {
     width: 100%;
-    border-radius: .5rem .5rem 0 0 ;
 }
 
 .match_blog_title {

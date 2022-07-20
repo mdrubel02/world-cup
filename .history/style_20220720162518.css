@@ -177,7 +177,7 @@ hr {
 
 .thumble img {
     width: 100%;
-    border-radius: .5rem .5rem 0 0 ;
+    border-radius: .5rem 0 .5rem 0;
 }
 
 .match_blog_title {
