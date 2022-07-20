@@ -84,9 +84,8 @@ a:hover {
 }
 
 hr {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #DADADA;
     margin-bottom: 1.3rem;
-    width: 900px;
 }
 
 /* ========BANNER SECTION STYLE======== */
@@ -179,15 +178,8 @@ hr {
 
 /* ========FOOTER SECTION STYLE START======== */
 footer {
-    background-color: #161616;
-}
-.footer_section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
     height: 450px;
+    background-color: #161616;
 }
 .footer_title{
     color:#fff;
@@ -195,7 +187,6 @@ footer {
     font-size: 45px;
     line-height: 54px;
     text-align: center;
-    margin-bottom: .6rem;
 }
 .footer_menu {
     display: flex;
@@ -209,4 +200,4 @@ footer {
 }
 .hr-line{
     width: 900px;
-} 
+}

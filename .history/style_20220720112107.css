@@ -65,6 +65,11 @@ a:hover {
     color: #fff;
 }
 
+.section-title {
+    text-align: center;
+    padding: 0 250px;
+}
+
 .title {
     color: #121212;
     font-weight: 700;
@@ -84,9 +89,8 @@ a:hover {
 }
 
 hr {
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid #DADADA;
     margin-bottom: 1.3rem;
-    width: 900px;
 }
 
 /* ========BANNER SECTION STYLE======== */
@@ -179,34 +183,15 @@ hr {
 
 /* ========FOOTER SECTION STYLE START======== */
 footer {
+    height: 450px;
     background-color: #161616;
 }
-.footer_section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
-    height: 450px;
-}
-.footer_title{
-    color:#fff;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 54px;
-    text-align: center;
-    margin-bottom: .6rem;
-}
+
 .footer_menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 850px;
 }
 
 .footer_menu-items {
     display: flex;
     gap: 10px;
 }
-.hr-line{
-    width: 900px;
-} 

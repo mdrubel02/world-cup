@@ -179,15 +179,15 @@ hr {
 
 /* ========FOOTER SECTION STYLE START======== */
 footer {
+    height: 450px;
     background-color: #161616;
 }
 .footer_section{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     margin-top: 5rem;
-    height: 450px;
 }
 .footer_title{
     color:#fff;
@@ -195,7 +195,6 @@ footer {
     font-size: 45px;
     line-height: 54px;
     text-align: center;
-    margin-bottom: .6rem;
 }
 .footer_menu {
     display: flex;
