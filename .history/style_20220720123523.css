@@ -134,8 +134,7 @@ hr {
 /* ========MATCH SECTION STYLE START======== */
 .match_section {
     display: grid;
-    grid-template-columns: 312px  1fr;
-    gap: .6rem;
+    grid-template-columns: 1fr 1fr;
 }
 
 .match_menu-items {
@@ -214,7 +213,7 @@ footer {
 
 .footer_menu-items {
     display: flex;
-    gap: 1.5rem;
+    gap: 10px;
 }
 
 .hr-line {
@@ -256,9 +255,9 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
-    .banner_section{
-        display: grid;
-        grid-template-columns:1fr;
+    .banner_right {
+        order: 2;
+        align-items: center;
     }
 }
 
@@ -267,9 +266,5 @@ footer {
         grid-template-columns: 1fr;
         grid-column-gap: 2.3rem;
         grid-row-gap: 30px;
-    }
-    .match_menu-items{
-        flex-direction: column;
-        height: 200px;
     }
 }

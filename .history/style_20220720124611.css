@@ -135,7 +135,6 @@ hr {
 .match_section {
     display: grid;
     grid-template-columns: 312px  1fr;
-    gap: .6rem;
 }
 
 .match_menu-items {
@@ -214,7 +213,7 @@ footer {
 
 .footer_menu-items {
     display: flex;
-    gap: 1.5rem;
+    gap: 10px;
 }
 
 .hr-line {
