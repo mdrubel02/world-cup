@@ -134,8 +134,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    width: 100%;
-    display: block;
+    width: 80%;
 }
 
 /* ========BANNER SECTION STYLE END======== */
@@ -290,14 +289,8 @@ footer {
     .banner_right img{
         width: 100%;
     }
-    .banner_left h1{
-        font-size: 30px;
-    }
 }
 @media only screen and (max-width: 950px) {
-    .banner_left h1{
-        font-size: 30px;
-    }
    
     .match_section {
         grid-template-columns: 1fr;
@@ -323,9 +316,6 @@ footer {
 @media only screen and (max-width: 750px) {
     hr {
         width: 500px;
-    }
-    .banner_left h1{
-        font-size: 30px;
     }
     .banner_left{
         align-items: center;
