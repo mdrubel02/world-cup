@@ -249,8 +249,8 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
-    height: 550px;
+    margin-top: 5rem;
+    height: 450px;
 }
 
 .footer_title {
@@ -276,10 +276,7 @@ footer {
 .social-icon{
     display: flex;
     gap: 1rem;
-    padding: 2.5rem;
-}
-.social-icon a{
-    font-size: 3rem;
+    margin-bottom: 1rem;
 }
 .hr-line {
     width: 900px;
