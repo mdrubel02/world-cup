@@ -199,28 +199,6 @@ hr {
     display: flex;
     gap: .8rem;
 }
-.btn_primary{
-    text-align: center;
-    width: max-content;
-    background-image: linear-gradient(#E02C6D, #910a3b);
-    color: #fff;
-    padding: 0.75rem 1.2rem;
-    border-radius: 0.4rem;
-    border: 1px solid #E02C6D;
-    transition: all 500ms ease;
-    display: none;
-}
-.btn_primary:hover{
-    background: transparent;
-    color: #E02C6D;
-    border: 1px solid #E02C6D;
-}
-.hide_button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1.5rem;
-}
 
 /* ========MATCH SECTION STYLE END======== */
 
@@ -291,9 +269,6 @@ footer {
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 2.3rem;
     }
-    .btn_primary{
-        display: block;
-    }
 }
 
 @media only screen and (max-width: 750px) {
@@ -306,9 +281,6 @@ footer {
     .banner_section {
         display: grid;
         grid-template-columns: 1fr;
-    }
-    .footer_menu-items{
-        flex-direction: column;
     }
 }
 
@@ -329,11 +301,5 @@ footer {
     .match_menu-items {
         flex-direction: column;
         height: 200px;
-    }
-    .footer_menu-items{
-        flex-direction: column;
-    }
-    hr {
-        width: 490px;
     }
 }
