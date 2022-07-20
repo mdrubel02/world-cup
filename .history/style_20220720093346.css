@@ -47,17 +47,16 @@ a:hover {
     width: max-content;
     display: inline-block;
     background-image: linear-gradient(#E02C6D,#910a3b);
-    color: #fff;
     padding: 0.75rem 1.2rem;
     border-radius: 0.4rem;
-    border: 1px solid #E02C6D;
+    border: 1px solid #4db5ff;
     transition: all 400ms ease;
 }
 
 .btn:hover {
-    background:transparent;
-    color: #E02C6D;
-    border: 1px solid #E02C6D;
+    background: #fff;
+    color: #4db5ff;
+    border: 1px solid #4db5ff;
 }
 
 .btn-primary {
@@ -95,18 +94,17 @@ hr {
 .banner_section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    gap: 2;
     background-color: #161616;
 }
 .banner_left{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: .5rem 1rem;
 }
 .banner_left h1{
     font-size: 50px;
-	font-weight:  500;
+	font-weight:  100;
 	letter-spacing: 2px;
 	color: #f35626;
 	background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
@@ -122,45 +120,4 @@ hr {
       -webkit-filter: hue-rotate(-360deg);
     }
   }
-/* ========BANNER SECTION STYLE END======== */
-
-/* ========MATCH SECTION STYLE START======== */
-.match_section{
-    display: flex;
-    gap: .5rem;
-}
-.match_menu-items{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width:30%;
-    height: 312px;
-    background-color: #161616;
-    border-radius: 10px;
-}
-.item{
-    width: 70%;
-}
-.match_items{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap:30px;
-    grid-column-gap:.5rem;
-}
-.item{
-    background-color:#dfe6e9;
-    padding: 15px 20px;
-    border-radius: 10px;
-}
-.thumble img{
-    width: 100%;
-}
-.icon_bar{
-    display: flex;
-    gap: 2.3rem;
-}
-.icon{
-    display: flex;
-    gap: .8rem;
-}
+  

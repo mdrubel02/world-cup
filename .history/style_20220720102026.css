@@ -95,14 +95,14 @@ hr {
 .banner_section{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2rem;
+    grid-gap: 50px;
     background-color: #161616;
 }
 .banner_left{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: .5rem 1rem;
+    padding: .6rem 1rem;
 }
 .banner_left h1{
     font-size: 50px;
@@ -125,36 +125,10 @@ hr {
 /* ========BANNER SECTION STYLE END======== */
 
 /* ========MATCH SECTION STYLE START======== */
-.match_section{
-    display: flex;
-    gap: .5rem;
-}
-.match_menu-items{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    width:30%;
-    height: 312px;
-    background-color: #161616;
-    border-radius: 10px;
-}
-.item{
-    width: 70%;
-}
-.match_items{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap:30px;
-    grid-column-gap:.5rem;
-}
 .item{
     background-color:#dfe6e9;
     padding: 15px 20px;
     border-radius: 10px;
-}
-.thumble img{
-    width: 100%;
 }
 .icon_bar{
     display: flex;

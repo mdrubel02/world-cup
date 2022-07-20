@@ -134,13 +134,13 @@ hr {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width:30%;
+    width: 20%;
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
 }
 .item{
-    width: 70%;
+    width: 80%;
 }
 .match_items{
     display: grid;

@@ -134,19 +134,19 @@ hr {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    width:30%;
+    width: 20%;
     height: 312px;
     background-color: #161616;
     border-radius: 10px;
 }
 .item{
-    width: 70%;
+    width: 80%;
 }
 .match_items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap:30px;
-    grid-column-gap:.5rem;
+    grid-column-gap:85px;
 }
 .item{
     background-color:#dfe6e9;
