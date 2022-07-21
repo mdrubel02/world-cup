@@ -239,9 +239,6 @@ hr {
     align-items: center;
     gap: .6rem;
 }
-.match-date{
-    margin: 2.3rem;
-}
 /* ========FOOTER SECTION STYLE START======== */
 footer {
     background-color: #161616;
@@ -334,9 +331,6 @@ footer {
     }
     .banner_right img{
         width: 90%;
-    }
-    hr {
-        width: 700px;
     }
 }
 
